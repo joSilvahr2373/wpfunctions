@@ -1,4 +1,4 @@
-function create_post_types($post = null, $singular_name = null, $plural_name = null){
+function create_post_types($post = null, $singular_name = null, $plural_name = null, $description = null){
 
   register_post_type( $post,
 		array(
